@@ -14,3 +14,9 @@ This is the second project of the Web Development program at Practicum. It was c
 ## Plan on improving the project
 
 Add your ideas here :)
+
+improve styling
+
+improve some usefull features
+
+implement a better reservation feature
