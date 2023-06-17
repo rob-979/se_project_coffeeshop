@@ -38,7 +38,7 @@
               <a href="#Recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#Reservation" class="nav__link">Book a Table</a>
+              <a href="#reservation" class="nav__link">Book a Table</a>
             </li>
             <li>
               <a href="#Menu" class="nav__link">Menu</a>
@@ -105,12 +105,12 @@
             </li>
           </ul>
         </section>
-        <section id="Reservation" class="Reservation">
-          <h2 class="Reservation__title">Book a table</h2>
-          <form class="form reservation__form">
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">
-                name
+                Name *
                 <input
                   required
                   type="text"
@@ -120,8 +120,8 @@
                   class="form__input"
               /></label>
 
-              <label for="guest" class="form__label">
-                Number of guests
+              <label for="guests" class="form__label">
+                Number of guests *
                 <input
                   required
                   type="number"
@@ -134,7 +134,7 @@
               /></label>
 
               <label for="datetime" class="form__label">
-                Date & time
+                Date & time *
                 <input
                   required
                   type="datetime-local"
@@ -144,7 +144,7 @@
               </label>
 
               <label for="email" class="form__label">
-                Your email
+                Your email *
                 <input
                   type="email"
                   id="email"
@@ -156,7 +156,7 @@
               <fieldset class="form__fieldset">
                 <label
                   class="form__label form__label_type_checkbox"
-                  for="checkkbox"
+                  for="checkbox"
                 >
                   I agree to the terms of use
                   <input
