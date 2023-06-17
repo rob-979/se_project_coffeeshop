@@ -174,7 +174,7 @@
   display: flex;
 }
 
-.Reservation {
+.reservation {
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
@@ -183,7 +183,7 @@
   padding: 100px 0 120px 0;
 }
 
-.Reservation__title {
+.reservation__title {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
