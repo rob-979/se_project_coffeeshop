@@ -48,6 +48,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition: ease-in-out 0.2s;
 }
 
 .footer__icon {

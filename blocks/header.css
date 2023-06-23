@@ -29,6 +29,7 @@
   font-size: 60px;
   line-height: 72px;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -49,6 +50,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 0;
+  z-index: 1;
 }
 
 .header__image {
@@ -57,6 +59,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
+  z-index: 0;
 }
 
 .header__footer {
@@ -70,6 +73,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  z-index: 1;
 }
 
 .header__paragraph {
