@@ -10,6 +10,7 @@
   flex-direction: column;
   max-width: 385px;
   border: none;
+  padding: 0;
 }
 
 .form__label {
@@ -32,9 +33,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-}
-
-.form__input_color {
+  color: #838383;
 }
 
 .form__button {
@@ -51,6 +50,8 @@
   color: #ffffff;
   opacity: 100%;
   transition: opacity 0.3s ease;
+  cursor: pointer;
+  border: none;
 }
 
 .form__button:hover {
